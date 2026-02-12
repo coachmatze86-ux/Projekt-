@@ -8,7 +8,8 @@
     "build": "tsc",
     "test": "jest",
     "test:watch": "jest --watch",
-    "test:coverage": "jest --coverage"
+    "test:coverage": "jest --coverage",
+    "start": "npx ts-node src/api/server.ts"
   },
   "keywords": [
     "gastronomie",
@@ -17,9 +18,15 @@
   ],
   "license": "MIT",
   "devDependencies": {
+    "@types/express": "^5.0.6",
     "@types/jest": "^30.0.0",
+    "@types/supertest": "^6.0.3",
     "jest": "^30.2.0",
+    "supertest": "^7.2.2",
     "ts-jest": "^29.4.6",
     "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
   }
 }
