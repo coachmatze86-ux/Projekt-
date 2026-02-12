@@ -1,0 +1,25 @@
+{
+  "name": "gastro-job-framework",
+  "version": "0.1.0",
+  "description": "Framework zur Einordnung von Gastronomie-Jobs in Tätigkeitsfelder mit Aufgaben und Anforderungen",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "keywords": [
+    "gastronomie",
+    "jobs",
+    "framework"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "jest": "^30.2.0",
+    "ts-jest": "^29.4.6",
+    "typescript": "^5.9.3"
+  }
+}
